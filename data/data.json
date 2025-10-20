@@ -1,0 +1,70 @@
+{
+  "About": [
+    {
+      "title": "ABOUT THE BOOKNOOK",
+      "subtitle": "Founded in 2008",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Turpis nunc eget lorem dolor sed. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Justo donec enim diam vulputate ut. Aliquam ut porttitor leo a diam sollicitudin tempor id. Id venenatis a condimentum vitae sapien pellentesque habitant morbi.",
+      "image": "images/about-photo.jpg"
+    },
+    {
+      "title": "FIND THE PERFECT BOOK",
+      "subtitle": "",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Turpis nunc eget lorem dolor sed. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Justo donec enim diam vulputate ut. Aliquam ut porttitor leo a diam sollicitudin tempor id. Id venenatis a condimentum vitae sapien pellentesque habitant morbi.",
+      "image": "images/about-photo-two.jpg"
+    }
+  ],
+  "BlogPosts": [
+    {
+      "id": 1,
+      "title": "FEBRUARY FAVORITES",
+      "subtitle": "In Honor of Black History Month",
+      "quote": "\"Success is only meaningful and enjoyable if it feels like your own\" - Michelle Obama",
+      "hero_image": "images/february-favorites-hero.jpg",
+      "card_images": ["images/becoming.jpg", "images/finding me.jpg"],
+      "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "content": [
+        { "type": "split", "heading": "Becoming By Michelle Obama", "image": "images/becoming.jpg", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc non blandit massa enim nec dui nunc. Vulputate eu scelerisque felis imperdiet proin fermentum leo. Tellus mauris a diam maecenas sed. Accumsan sit amet nulla facilisi cras fermentum. Lacus vel facilisis volutpat est velit egestas dui id. Ultricies mi quis hendrerit dolor magna eget est. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+        { "type": "split", "heading": "Finding Me By Viola Davis", "image": "images/finding me.jpg", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc non blandit massa enim nec dui nunc. Vulputate eu scelerisque felis imperdiet proin fermentum leo. Tellus mauris a diam maecenas sed. Accumsan sit amet nulla facilisi cras fermentum. Lacus vel facilisis volutpat est velit egestas dui id. Ultricies mi quis hendrerit dolor magna eget est. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "ALL ABOUT BOOKCLUBS",
+      "subtitle": "What books are best for book club? Everything you need to know about hosting your own!",
+      "hero_image": "images/book-club-hero.jpg",
+      "card_images": ["images/open-book-blog.jpg"],
+      "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "content": [
+        { "type": "split", "image": "images/open-book-blog.jpg", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis in eu mi bibendum neque egestas. Risus lobortis mattis aliquam faucibus purus in massa tempor. Diam in arcu cursus euismod quis viverra nibh. Mauris a diam maecenas sed enim ut sem. Pulvinar elementum integer enim neque volutpat ac tincidunt. Dolor morbi non arcu risus. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Ipsum dolor sit amet consectetur adipiscing elit. Sed vulputate mi sit amet mauris commodo quis imperdiet.\n\nOrnare arcu dui vivamus arcu felis. Risus at ultrices mi tempus imperdiet. In cursus turpis massa tincidunt dui ut. Sem et tortor consequat id porta nibh venenatis. Et netus et malesuada fames ac. Quis commodo odio aenean sed adipiscing. Id diam vel quam elementum pulvinar etiam. Justo donec enim diam vulputate ut. Aliquam ut porttitor leo a diam sollicitudin. Nibh praesent tristique magna sit amet purus gravida quis. Eget sit amet tellus cras adipiscing enim eu. Vitae congue mauris rhoncus aenean. Et netus et malesuada fames ac turpis egestas integer." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "SWITCHING TO E-READING?",
+      "subtitle": "What e-readers are best for you? everything you need to know about electronic reading!",
+      "hero_image": "images/eread-hero.jpg",
+      "card_images": ["images/ereading-blog.jpg"],
+      "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "content": [
+        { "type": "split", "image": "images/ereading-blog.jpg", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis in eu mi bibendum neque egestas. Risus lobortis mattis aliquam faucibus purus in massa tempor. Diam in arcu cursus euismod quis viverra nibh. Mauris a diam maecenas sed enim ut sem. Pulvinar elementum integer enim neque volutpat ac tincidunt. Dolor morbi non arcu risus. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Ipsum dolor sit amet consectetur adipiscing elit. Sed vulputate mi sit amet mauris commodo quis imperdiet.\n\nOrnare arcu dui vivamus arcu felis. Risus at ultrices mi tempus imperdiet. In cursus turpis massa tincidunt dui ut. Sem et tortor consequat id porta nibh venenatis. Et netus et malesuada fames ac. Quis commodo odio aenean sed adipiscing. Id diam vel quam elementum pulvinar etiam. Justo donec enim diam vulputate ut. Aliquam ut porttitor leo a diam sollicitudin. Nibh praesent tristique magna sit amet purus gravida quis. Eget sit amet tellus cras adipiscing enim eu. Vitae congue mauris rhoncus aenean. Et netus et malesuada fames ac turpis egestas integer." }
+      ]
+    }
+  ],
+  "Books": [
+    { "id": 1, "title": "To Kill A Mockingbird", "author": "Harper Lee", "price": 15.99, "genre": "Fiction", "cover_image": "images/to-kill-a-mockingbird.png", "featured": true },
+    { "id": 2, "title": "Becoming", "author": "Michelle Obama", "price": 25.99, "genre": "Black History Books", "cover_image": "images/becoming.jpg", "featured": true },
+    { "id": 3, "title": "Firestarter", "author": "Stephen King", "price": 19.99, "genre": "Horror Books", "cover_image": "images/firestarter.jpg", "featured": true },
+    { "id": 4, "title": "Game of Thrones Boxset", "price": 99.99, "genre": "Boxsets", "cover_image": "images/box-set-1.png" },
+    { "id": 5, "title": "Harry Potter Boxset", "price": 100.00, "genre": "Boxsets", "cover_image": "images/hp-box-set.jpg" },
+    { "id": 15, "title": "GOT Boxset Alt", "price": 100.00, "genre": "Boxsets", "cover_image": "images/got-box-set.jpg" },
+    { "id": 6, "title": "Finding Me", "price": 27.00, "genre": "Black History Books", "cover_image": "images/finding me.jpg" },
+    { "id": 7, "title": "MLK Biography", "price": 19.99, "genre": "Black History Books", "cover_image": "images/mlk-biography.jpg" },
+    { "id": 8, "title": "Eleanor Roosevelt", "price": 17.99, "genre": "Black History Books", "cover_image": "images/elenor-roosevelt-biography.jpg" },
+    { "id": 9, "title": "Misery", "price": 19.99, "genre": "Horror Books", "cover_image": "images/misery.jpg" },
+    { "id": 16, "title": "Frankenstein", "price": 15.99, "genre": "Horror Books", "cover_image": "images/frankenstein.jpg" },
+    { "id": 10, "title": "Phantoms", "price": 19.99, "genre": "Horror Books", "cover_image": "images/phantoms.jpg" },
+    { "id": 11, "title": "Winnie The Pooh", "price": 19.99, "genre": "Childrens Books", "cover_image": "images/winnie-the-pooh.png" },
+    { "id": 12, "title": "The Cat in the Hat", "price": 15.99, "genre": "Childrens Books", "cover_image": "images/cat and the hat.jpg" },
+    { "id": 13, "title": "Fun Facts About Space", "price": 7.99, "genre": "Childrens Books", "cover_image": "images/fun facts about space.jpg" }
+  ]
+}

@@ -1,0 +1,306 @@
+@use 'variables' as *;
+
+// HOME PAGE
+.home-hero {
+   height: 450px;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   padding-right: 10%;
+   margin-bottom: 4rem;
+
+   &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(95, 122, 120, 0.7);
+      z-index: 1;
+   }
+
+   .hero-text {
+      position: relative;
+      z-index: 2;
+      color: $bg-color;
+      padding: 2rem 3rem;
+      text-align: center;
+      background-color: transparent;
+
+      h1 {
+         font-size: 2.2rem;
+         font-weight: bold;
+         margin-bottom: 0.5rem;
+      }
+
+      p {
+         font-family: $font-family-sans;
+         text-transform: uppercase;
+         letter-spacing: 2px;
+         font-size: 0.8rem;
+      }
+   }
+}
+
+.featured-books {
+   display: flex;
+   justify-content: space-around;
+   gap: 2rem;
+   flex-wrap: wrap;
+}
+
+// ABOUT PAGE
+.about-container {
+   max-width: 1100px;
+   margin: 0 auto;
+}
+
+.about-page-section {
+   display: flex;
+   gap: 5rem;
+   align-items: center;
+   margin-bottom: 5rem;
+   margin-top: 5rem;
+
+   .about-image {
+      width: 393px;
+      height: 587px;
+      flex-shrink: 0;
+
+      img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+      }
+   }
+
+   .about-text {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: -375px;
+
+      h2 {
+         font-size: 2rem;
+         margin-bottom: 0.5rem;
+      }
+
+      h3 {
+         font-size: 1.2rem;
+         margin-bottom: 1.5rem;
+         color: $secondary-text-color;
+      }
+   }
+}
+
+// BOOKS PAGE
+.genre-section {
+   margin-bottom: 4rem;
+
+   .genre-title {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      border-bottom: 2px solid $primary-text-color;
+      display: inline-block;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+   }
+}
+
+// LOGIN/ACCOUNT PAGE
+.account-page {
+   display: flex;
+   justify-content: space-around;
+   gap: 4rem;
+   padding: 2rem 5%;
+
+   .form-container {
+      width: 45%;
+
+      h2 {
+         font-size: 2rem;
+         margin-bottom: 2rem;
+      }
+
+      .form-group {
+         margin-bottom: 1.5rem;
+
+         label {
+            display: block;
+            font-family: $font-family-sans;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+         }
+
+         input {
+            width: 100%;
+            border: none;
+            border-bottom: $primary-border;
+            padding: 0.5rem 0;
+            font-size: 1rem;
+
+            &:focus {
+               outline: none;
+            }
+         }
+      }
+
+      .btn {
+         background-color: $primary-accent;
+         color: $bg-color;
+         border-color: $primary-accent;
+      }
+   }
+}
+
+// BLOG POST PAGE
+.blog-post-hero {
+   height: 400px;
+   background-size: cover;
+   background-position: center;
+   color: $bg-color;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   position: relative;
+   padding: 1rem;
+
+   &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(95, 122, 120, 0.7);
+   }
+
+   h1,
+   h3,
+   p {
+      position: relative;
+      z-index: 1;
+   }
+
+   h1 {
+      font-size: 3rem;
+   }
+
+   h3 {
+      font-size: 1.2rem;
+      font-family: $font-family-sans;
+      font-weight: normal;
+      margin-top: 0.5rem;
+   }
+
+   #blog-quote {
+      font-family: $font-family-serif;
+      font-style: italic;
+      margin-top: 1rem;
+      font-size: 1.1rem;
+   }
+}
+
+.blog-post-content-container {
+   max-width: 900px;
+   margin: 4rem auto;
+
+   .post-split {
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+      margin-bottom: 3rem;
+
+      .post-split-image {
+         flex-basis: 40%;
+         flex-shrink: 0;
+
+         img {
+            width: 100%;
+            height: auto;
+         }
+      }
+
+      .post-split-text {
+         flex: 1;
+
+         .post-split-heading {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+         }
+
+         p {
+            line-height: 1.8;
+            white-space: pre-wrap;
+         }
+      }
+   }
+}
+
+// --- CART PAGE STYLES (THE FIX) ---
+.cart-page {
+   max-width: 900px;
+   margin: 0 auto;
+
+   h1 {
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+   }
+
+   .cart-item {
+      display: flex;
+      align-items: center; // Vertically center the content
+      gap: 2rem;
+      padding: 2rem 0;
+      border-bottom: $primary-border;
+
+      .cart-item-image {
+         width: 120px;
+         flex-shrink: 0;
+
+         img {
+            width: 100%;
+            height: auto;
+         }
+      }
+
+      .cart-item-details {
+         flex-grow: 1;
+
+         h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+         }
+
+         // Style the price to match the prototype
+         .price {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+         }
+
+         p {
+            margin-bottom: 0.5rem;
+            color: $secondary-text-color;
+            font-family: $font-family-sans;
+         }
+
+         .qty {
+            font-size: 0.9rem;
+
+            a {
+               text-decoration: underline;
+               cursor: pointer;
+            }
+         }
+      }
+   }
+}

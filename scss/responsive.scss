@@ -1,0 +1,117 @@
+@use 'variables' as *;
+
+@media (max-width: 768px) {
+
+   #app {
+      padding: 1.5rem 2%;
+   }
+
+   header {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+
+      .header-left, .header-right {
+         flex-basis: 100%;
+         display: flex;
+         justify-content: space-between;
+      }
+      .header-center {
+         flex-basis: 100%;
+         order: 3;
+      }
+   }
+
+   .featured-books {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .about-page-section {
+      flex-direction: column !important;
+      gap: 2rem;
+      
+      .about-image {
+         width: 100%;
+         max-width: 500px;
+         height: auto;
+      }
+   }
+
+   .books-container {
+      justify-content: center;
+   }
+   .book-list-item {
+      flex: 1 1 calc(50% - 2rem);
+   }
+
+   .blog-card {
+      flex-direction: column;
+      background-color: $light-gray-bg;
+      color: $primary-text-color;
+      border: $primary-border;
+
+      .blog-text .btn {
+         border-color: $primary-accent;
+         color: $primary-accent;
+         &:hover {
+            background-color: $primary-accent;
+            color: $bg-color;
+         }
+      }
+   }
+
+   .blog-post-content-container .post-split {
+      flex-direction: column;
+   }
+
+   .account-page {
+      flex-direction: column;
+      align-items: center;
+      .form-container {
+         width: 80%;
+         max-width: 400px;
+      }
+   }
+}
+
+@media (max-width: 480px) {
+
+   #app {
+      padding: 1rem 3%;
+   }
+
+   header {
+      .header-right {
+         flex-direction: column;
+         align-items: center;
+         gap: 1rem;
+      }
+   }
+   
+   .home-hero {
+      height: 300px;
+      justify-content: center;
+      padding: 0 1rem;
+      .hero-text h1 { font-size: 1.8rem; }
+   }
+
+   .book-list-item {
+      flex: 1 1 100%;
+      flex-direction: column;
+
+      .book-list-info {
+         text-align: center;
+      }
+   }
+
+   .blog-post-hero {
+      h1 { font-size: 2rem; }
+      h3 { font-size: 1rem; }
+   }
+
+   footer {
+      flex-direction: column;
+      gap: 1.5rem;
+   }
+}
